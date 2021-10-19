@@ -146,16 +146,18 @@ footer p {
     justify-content: space-around;
     align-items: center;
   }
+  form div{
+    flex-direction: column;
+  }
   form{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  form div{
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   .logo{
     display: flex;
-    margin: 10px;
+    margin: 10px 0 10px 10px;
+    font-size: 40px;
   }
 }
